@@ -1,0 +1,13 @@
+# Windows / Google Drive system files
+desktop.ini
+Thumbs.db
+ehthumbs.db
+.DS_Store
+
+# Internal working docs — kept local, NOT published to the public repo
+README.internal.md
+Open Inputs Checklist.md
+Programming Team OS — Project Brief.md
+Maintenance SOP.md
+team-os skill — spec.md
+Workflow Intake Template.md
