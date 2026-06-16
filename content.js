@@ -23,8 +23,8 @@ window.CONTENT = {
   meta: {
     title: ".scp Operating System",
     tagline: "How the programming team works — for the people in it, and for the Claude that works alongside them.",
-    version: "1.0",
-    lastUpdated: "15 June 2026 (added upskilling channels + onboarding role links)",
+    version: "1.1",
+    lastUpdated: "16 June 2026 (UI/navigation upgrade — command palette, grouped nav, the Transformation Arc)",
     stewardNote: "Owned by the team. Edited in content.js. Steward: Rohan."
   },
 
@@ -58,7 +58,13 @@ window.CONTENT = {
     livingLab: "We are a living lab. The gallery floor is where we test what we think we know. Our sessions are not products we deliver; they are ongoing experiments in what it means to learn around science. We sit inside an NGO, so our work answers to the mission, not to revenue — and that shapes the pace we move at, the questions we ask before designing anything, and the communities we choose to serve.",
     funnel: {
       heading: "The Transformation Arc",
-      body: "Every programme is challenge-based and built to move people along one arc: Citizen to Seeker to Solver to Innovator. A Citizen is a passive observer; a Seeker is curious and asking questions; a Solver is hands-on and iterating; an Innovator is building something new from what they discovered. Impact here is directional, not binary — the question isn't 'did they learn a fact?' but 'did they move along the arc?' That movement is the work, and it is what we try to measure."
+      body: "Every programme is challenge-based and built to move people along one arc: Citizen to Seeker to Solver to Innovator. A Citizen is a passive observer; a Seeker is curious and asking questions; a Solver is hands-on and iterating; an Innovator is building something new from what they discovered. Impact here is directional, not binary — the question isn't 'did they learn a fact?' but 'did they move along the arc?' That movement is the work, and it is what we try to measure.",
+      arc: [
+        { stage: "Citizen", note: "A passive observer." },
+        { stage: "Seeker", note: "Curious, and asking questions." },
+        { stage: "Solver", note: "Hands-on, and iterating." },
+        { stage: "Innovator", note: "Building something new from what they found." }
+      ]
     },
     principles: [
       { n: "01", title: "Curiosity before answers", body: "We start with what people are already wondering, not with what we want them to know. The question is the unit of learning." },

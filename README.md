@@ -9,6 +9,10 @@ Live: https://rohanvijay-lab.github.io/programming-team-os/
 
 Or clone this repo and open `index.html` in any browser (keep it next to `content.js`).
 
+## Find your way
+
+Navigate from the grouped sidebar, or press **⌘K** (Ctrl-K on Windows/Linux) anywhere to jump to a section, person, role, workflow, or channel.
+
 ## What's here
 
 | File | What it is |
