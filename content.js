@@ -380,18 +380,23 @@ window.CONTENT = {
         domain: "Events",
         ownerRole: "Event POC",
         cadence: "Per event",
-        trigger: "An event is committed for a centre or month.",
-        tools: ["Events Hub", "Param Events SOP", "AIRPORT scoping", "Event Feedback Form"],
+        trigger: "An event or workshop is scheduled to run.",
+        tools: ["Facilitation guides", "Workshop printables", "Feedback form", "Observation sheet", "Event POC KPI form", "Google Drive"],
         steps: [
-          "Scope the event with AIRPORT (Artifact, Interview, Resources, Plan, Options, Restart, Test) — write a brief with the decisions locked.",
-          "Enter it in the Events Hub with timeline, dependencies, and owner.",
-          "Brief marketing on the theme and what collateral is needed.",
-          "Prepare materials, roles, and the run-of-show; confirm facilitator cover.",
-          "Run the event; keep the gallery informed throughout.",
-          "Collect feedback, complete the DPR, and capture the outcomes for the KPIs."
+          "Pre-workshop — read the facilitation guides: understand the flow and the materials.",
+          "Pre-workshop — prepare the workshop printables: the session-specific prints, the feedback form, and the observation sheet.",
+          "T−1 day — set up the room.",
+          "On the day — review the flow and the challenge; do the last-minute setup.",
+          "On the day — facilitate with confidence (you've got it).",
+          "On the day — fill the observation sheet as you make observations.",
+          "On the day — take pics.",
+          "Post session — fill the observation sheet and collect the feedback forms.",
+          "Post session — log the Event POC KPI form.",
+          "Post session — upload the pics to Google Drive.",
+          "Post session — share event feedback; flag any designs to improve for next month."
         ],
-        coverNote: "The Param Events SOP and the AIRPORT brief are the backup — a good brief means someone else can run it. A named cover for the Event POC is still open.",
-        source: "Events & Programming overview + Constitution (AIRPORT)"
+        coverNote: "Work the phases in order — the prep (guides read, printables and room ready) is what lets the day run on confidence. The observation sheet and the feedback form are the point: they're how the KPIs get fed and how next month's design improves, so don't let them slip in the post-session rush.",
+        source: "Event POC Workflow — Rohan's handwritten flow, 24 Jun 2026"
       },
       {
         id: "unified-vision",
